@@ -2,9 +2,20 @@
 title: "Emotional Traits of Girls who Have Strong STEM Potential"
 author: "Heaven Hodges"
 date: "January 9, 2016"
+bibliography: "references.bib"
 output: html_document
 ---
-The purpose of this research project is to explore the emotional traits of adolescent girls who have strong STEM potential. "Strong STEM potential" refers to the potential to complete post-secondary education with a science, math, engineering, or technology-based major, and/or an occupation for which core job duties require fundamental STEM skills. The predominace of men in STEM education and occupations and the identification of specific, non-universal skills that are necessary for success in these fields suggests a correlatation between strong STEM potential and personality traits. A less certain possible correlation, connecting strong STEM potential and the emotional component of personaltity, is the question addressed by this research.
+The purpose of this research project is to explore the emotional traits of adolescent girls who have strong STEM potential. "Strong STEM potential" refers to the potential to complete post-secondary education with a science, math, engineering, or technology-based major, and/or an occupation for which core job duties require fundamental STEM skills. Existing literature (see bibliography) suggests correlatations between STEM potential and personality traits.
+```{r echo=FALSE, results="hide"}
+library("knitcitations")
+citet("10.1027/2151-2604/a000109")
+citet("10.1037/a0032052")
+citet("10.1037/h0029912")
+citet("10.1037/a0034099")
+citet("10.1037/a0027247")
+citet("10.1037/a0032338")
+```
+This research addresses possible correlations between strong STEM potential and the emotional component of personaltity, on which I could find no previous research.
 
 The research is based on a subset of the responses to Wave 1 of the National Longitudinal Study of Adolescent Health (AddHealth), a survey of U.S. adolescents in grades 7-12. The codebook for this data subset is presented in the tables below.
 
@@ -100,3 +111,8 @@ The variables that make up romantic preferences were extracted from Section 21, 
 |  romantic interest  |                    |       2 Items       |
 |                     |        H1NR1       |Have you ever had a romantic attraction to a female?|
 |                     |        H1NR2       |Have you ever had a romantic attraction to a male?|
+
+```{r echo = FALSE, message=FALSE}
+write.bibtex(file="references.bib")
+print(bibliography(), "html")
+```
