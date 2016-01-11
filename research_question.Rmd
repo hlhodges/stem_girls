@@ -1,0 +1,102 @@
+---
+title: "Emotional Traits of Girls who Have Strong STEM Potential"
+author: "Heaven Hodges"
+date: "January 9, 2016"
+output: html_document
+---
+The purpose of this research project is to explore the emotional traits of adolescent girls who have strong STEM potential. "Strong STEM potential" refers to the potential to complete post-secondary education with a science, math, engineering, or technology-based major, and/or an occupation for which core job duties require fundamental STEM skills. The predominace of men in STEM education and occupations and the identification of specific, non-universal skills that are necessary for success in these fields suggests a correlatation between strong STEM potential and personality traits. A less certain possible correlation, connecting strong STEM potential and the emotional component of personaltity, is the question addressed by this research.
+
+The research is based on a subset of the responses to Wave 1 of the National Longitudinal Study of Adolescent Health (AddHealth), a survey of U.S. adolescents in grades 7-12. The codebook for this data subset is presented in the tables below.
+
+###STEM Potential
+Strong STEM potential is defined in terms of two factors: academic performance and cognitive style.
+
+####Academic Performance
+
+Girls whose academic performance suggests strong STEM potential are identified by all of the following self-reported achievements, presented here with the variable names by which they will henceforth be referred to:
+
+1. earned an A in math during the most recent grading period (**math skills**)
+2. earned an A in science during the most recent grading period (**science skills**)
+3. rarely or never had trouble finishing homework (**academic facility**)
+
+####Cognitive Style
+
+Girls whose cognitive style suggests strong STEM potential were identified by all of the following self-reported tendencies:
+
+1. not making decisions based on "gut feeling" (**decision-making**)
+2. gathering facts as a prelude to problem-solving (**fact-gathering**)
+3. analyzing approaches while problem-solving (**pre-analytical**)
+4. comparing decisions via a systematic method (**systematic judging**)
+5. analyzing outcomes of a decision (**post-analytical**)
+
+###Emotional Traits
+The emotional lives of the girls are characterized by 3 factors: self-esteem, emotional orientation, and social orientation.
+
+####Self-Esteem
+
+Self-esteem is defined in terms of the self-beliefs the girls expressed pertaining to the following traits:
+
+1. possessing good qualities (**self-valuation**)
+2. liking oneself as one is   (**self-appreciation**)
+3. doing things right (**self-judging**)
+
+Emotional orientation is defined in terms of the following responses:
+
+1. experiencing sadness (**emotional stability**)
+2. emotional response to difficult problems (**difficulty response**)
+
+Social orientation is defined in terms of the following responses:
+
+1. ideal romantic relationship (**romantic preferences**)
+     + holding hands
+     + professing love to a partner
+     + having a partner who professes love
+     + kissing
+2. desire for a relationship (**relationship interest**)
+3. presence or absence of romantic attraction (**romantic interest**)
+
+###Codebook
+All academic performance variables were extracted from Section 5, Academics and Education.
+
+|Academic Performance Variables|   Item Identifier  |             Item            |
+|:----------------------------:|:------------------:|:---------------------------:| 
+|         A in math            |      H1ED12        |And what was your grade in mathematics?| 
+|        A in science          |      H1ED14        | And what was your grade in science?|
+|     academic facility        |      H1ED17        | During the 1994-1995 school year, how often did you have trouble getting your homework done?|
+
+All cognitive style, self-esteem, and emotional orientation variables were extracted from Section 18, Personality and Family.
+
+|Cognitive Style Variables| Question Identifier|        Item        |
+|:-----------------------:|:------------------:|:------------------:|
+|     decision-making     |      H1PF16        |When making decisions, you usually go with your “gut feeling” without thinking too much about the consequences of each alternative.|
+|     fact-gathering      |      H1ED17        |When you have a problem to solve, one of the first things you do is get as many facts about the problem as possible.|
+|     pre-analytical      |      H1PF19        |When you are attempting to find a solution to a problem, you usually try to think of as many different ways to approach the problem as possible.|
+|    systematic judging   |      H1PF20        |When making decisions, you generally use a systematic method for judging and comparing alternatives.|
+|     post-analytical    |       H1PF21        |After carrying out a solution to a problem, you usually try to analyze what went right and what went wrong.|
+
+
+|Self-Esteem Variables| Question Identifier|        Item        |
+|:-------------------:|:------------------:|:------------------:|
+|   self-valuation    |      H1PF30        | You have a lot of good qualities.|
+|  self-appreciation  |      H1PF33        | You like yourself just the way you are.|
+|    self-judgment    |      H1PF34        |You feel like you are doing everything just about right.
+
+        
+|Emotional Orientation Variables|Question Identifier| Item      |
+|:-------------------:|:------------------:|:------------------:|
+| emotional stability |      H1PF10        |You never get sad.  |
+| difficulty response |      H1PF15        |Difficult problems make you very upset.|
+
+The variables that make up romantic preferences were extracted from Section 21, Ideal Romantic Relationship. The variables that comprise relationship interest and romantic attraction were extracted from Section 26, Non-Relationship History.
+
+|Social Orientation Variables|Question Identifier|Item         |
+|:-------------------:|:------------------:|:------------------:|
+| romantic preferences|                    |       4 Items      |
+|                     |        H1ID1F      |We would hold hands.|
+|                     |        H1ID1I      |I would tell my partner that I loved him or her.|
+|                     |        H1ID1J      |My partner would tell me that he or she loved me.|
+|                     |        H1ID1M      |We would kiss.|
+|relationship interest|        H1ID6       |How much would you like to have a romantic relationship in the next year?|
+|  romantic interest  |                    |       2 Items       |
+|                     |        H1NR1       |Have you ever had a romantic attraction to a female?|
+|                     |        H1NR2       |Have you ever had a romantic attraction to a male?|
