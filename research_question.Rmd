@@ -80,7 +80,7 @@ All cognitive style, self-esteem, and emotional orientation variables were extra
 |Cognitive Style Variables| Question Identifier|        Item        |
 |:-----------------------:|:------------------:|:------------------:|
 |     decision-making     |      H1PF16        |When making decisions, you usually go with your “gut feeling” without thinking too much about the consequences of each alternative.|
-|     fact-gathering      |      H1ED17        |When you have a problem to solve, one of the first things you do is get as many facts about the problem as possible.|
+|     fact-gathering      |      H1PF18        |When you have a problem to solve, one of the first things you do is get as many facts about the problem as possible.|
 |     pre-analytical      |      H1PF19        |When you are attempting to find a solution to a problem, you usually try to think of as many different ways to approach the problem as possible.|
 |    systematic judging   |      H1PF20        |When making decisions, you generally use a systematic method for judging and comparing alternatives.|
 |     post-analytical    |       H1PF21        |After carrying out a solution to a problem, you usually try to analyze what went right and what went wrong.|
